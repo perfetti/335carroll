@@ -48,12 +48,12 @@
 <section id="apartment_photos">
 <!-- FIXME 
 		PUT A BUNCH OF PICTURES IN HERE it'll scroll -->
-		  <img src="http://335carroll.com/images/335-Carroll_Alt-Layouts_03.jpg" alt="some_text">
-		  <img src="http://335carroll.com/images/335-Carroll_Alt-Layouts_15.jpg" alt="some_text">
-		   <img src="http://335carroll.com/images/335-Carroll_Alt-Layouts_20.jpg" alt="some_text">
-		    <img src="http://335carroll.com/images/335-Carroll_Model_08.jpg" alt="some_text">
-		     <img src="http://335carroll.com/images/335-Carroll_Model_17.jpg" alt="some_text">
-		        <img src="http://335carroll.com/images/335-Carroll_Model_19.jpg" alt="some_text">
+		  <img src="http://335carroll.com/img/335-Carroll_Alt-Layouts_03.jpg" alt="some_text">
+		  <img src="http://335carroll.com/img/335-Carroll_Alt-Layouts_15.jpg" alt="some_text">
+		   <img src="http://335carroll.com/img/335-Carroll_Alt-Layouts_20.jpg" alt="some_text">
+		    <img src="http://335carroll.com/img/335-Carroll_Model_08.jpg" alt="some_text">
+		     <img src="http://335carroll.com/img/335-Carroll_Model_17.jpg" alt="some_text">
+		        <img src="http://335carroll.com/img/335-Carroll_Model_19.jpg" alt="some_text">
 <?php $include_sidebar = true ?>
 <?php include 'header.php' ?>
 
@@ -90,12 +90,12 @@
 	<!-- FIXME 
 		PUT A BUNCH OF PICTURES IN HERE it'll scroll -->
 		
-		 <img src="http://335carroll.com/images/335-Carroll_Alt-Layouts_18.jpg" alt="some_text">
-		  <img src="http://335carroll.com/images/335-Carroll_Alt-Layouts_11.jpg" alt="some_text">
-		   <img src="http://335carroll.com/images/3335-Carroll_Model_15.jpg" alt="some_text">
-		    <img src="http://335carroll.com/images/335-Carroll_Model_06.jpg" alt="some_text">
-		     <img src="http://335carroll.com/images/335-Carroll_Model_05.jpg" alt="some_text">
-		        <img src="http://335carroll.com/images/335-Carroll_Model_22.jpg" alt="some_text">
+		 <img src="http://335carroll.com/img/335-Carroll_Alt-Layouts_18.jpg" alt="some_text">
+		  <img src="http://335carroll.com/img/335-Carroll_Alt-Layouts_11.jpg" alt="some_text">
+		   <img src="http://335carroll.com/img/3335-Carroll_Model_15.jpg" alt="some_text">
+		    <img src="http://335carroll.com/img/335-Carroll_Model_06.jpg" alt="some_text">
+		     <img src="http://335carroll.com/img/335-Carroll_Model_05.jpg" alt="some_text">
+		        <img src="http://335carroll.com/img/335-Carroll_Model_22.jpg" alt="some_text">
 </section>
 
 <?php include 'footer.php' ?>
