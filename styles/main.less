@@ -230,6 +230,8 @@ html, body {
 }
 
 #apartment_details {
+	overflow-y: scroll;
+	overflow-x: hidden;
 	height:75vh;
 	width:42.189761694%;
 	background-color: #fff;
@@ -269,6 +271,7 @@ html, body {
 	}
 
 	.details {
+		overflow-y: scroll;
 		line-height: 18px;
 		h4 {
 			width:100%;
@@ -292,7 +295,7 @@ html, body {
 			line-height: 16px;
 			font-size: 14px;
 			float:none;
-			width:100%;
+			width:95%;
 		}
 		#location_map {
 			margin-top:5px;
@@ -302,9 +305,10 @@ html, body {
 	}
 
 	small.warning {
-		position: absolute;
-		bottom: 2px;
-		left: 3%;
+		clear:both;
+		display:inline-block;
+		margin-top:3%;
+		margin-left: 3%;
 		width:100%;
 	}
 
