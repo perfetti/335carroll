@@ -54,48 +54,5 @@
 		    <img src="http://335carroll.com/img/335-Carroll_Model_08.jpg" alt="some_text">
 		     <img src="http://335carroll.com/img/335-Carroll_Model_17.jpg" alt="some_text">
 		        <img src="http://335carroll.com/img/335-Carroll_Model_19.jpg" alt="some_text">
-<?php $include_sidebar = true ?>
-<?php include 'header.php' ?>
-
-<nav id="sidebar">
-
-</nav>
-
-<section id="apartment_details">
-	<ul class="cf">
-		<li data-detail-select="overview" class="active"></li>
-		<li data-detail-select="amenities" >Amenities</li>
-		<li data-detail-select="neighborhood" >Neighborhood</li>
-	</ul>
-	
-	<!-- related details -->
-	<article id="overview" class="details active">
-		details
-	</article>
-	<article id="amenities" class="details">
-		amen
-	</article>
-	<article id="neighborhood" class="details">
-		neighbor
-	</article>
-
-
 </section>
-<script>
- 	window.myspace.enableDetailsSwapEffect();
- 	window.myspace.enableSidebarEffect();
-</script>
-
-<section id="apartment_photos">
-	<!-- FIXME 
-		PUT A BUNCH OF PICTURES IN HERE it'll scroll -->
-		
-		 <img src="http://335carroll.com/img/335-Carroll_Alt-Layouts_18.jpg" alt="some_text">
-		  <img src="http://335carroll.com/img/335-Carroll_Alt-Layouts_11.jpg" alt="some_text">
-		   <img src="http://335carroll.com/img/3335-Carroll_Model_15.jpg" alt="some_text">
-		    <img src="http://335carroll.com/img/335-Carroll_Model_06.jpg" alt="some_text">
-		     <img src="http://335carroll.com/img/335-Carroll_Model_05.jpg" alt="some_text">
-		        <img src="http://335carroll.com/img/335-Carroll_Model_22.jpg" alt="some_text">
-</section>
-
 <?php include 'footer.php' ?>
