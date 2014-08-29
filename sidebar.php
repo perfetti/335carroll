@@ -6,7 +6,7 @@
 		<a href="#" id="email" ><i class="fa fa-envelope"></i></a>
 	</div>
 	<ui class="apartments" >
-		<li><a href="/apartment_details.php">Home</a></li>
+		<li><a href="/index.php">Home</a></li>
 		<li><a href="/apartment_details.php">Studio</a></li>
 		<li><a href="/apartment_details.php">1 Bedroom</a></li>
 		<li><a href="/apartment_details.php">2 Bedroom</a></li>
