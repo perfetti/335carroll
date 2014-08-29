@@ -1,0 +1,15 @@
+Apartment details needs to be populated with some HTML to match the mocks.  
+It'll also needs to be styled.
+
+When you click on a line item it'll open the corresponding details article.
+
+Sidebar doesn't really do anything or have anything in it.
+
+
+
+Footer needs to be done.
+
+the css transition on index is a bit choppying but it's fine.
+
+
+There are notes labeled FIXME

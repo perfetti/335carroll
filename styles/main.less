@@ -7,13 +7,35 @@
 	src: url("/styles/fonts/Hero_Light.otf") format("opentype");
 }
 
-@myspace_orange: #9f2c00;
+@myspace_orange: #bf3c00;
 @myspace_yellow: #eaa513;
+@border-color: rgba(244, 244, 244, 0.5);
+
+.set_ease(@attr, @time) {
+	-webkit-transition: @attr @time ease-in-out;
+	-moz-transition: @attr @time ease-in-out;
+	-o-transition: @attr @time ease-in-out;
+	transition: @attr @time ease-in-out;
+}
 
 
-html {
+// FIXME!
+// THIS IS HAVING ISSUES WITH WEIRD JUMPINESS
+// or you end up with a weird white bit
+// Try and fix transition
+@type_transition_length: .2s;
+.type_ease{ 
+	.set_ease(width, @type_transition_length);
+}
+
+
+.orange_overlay_with_opacity (@opacity) {
+	background-color: rgba(159, 44, 0, @opacity);
+}
+
+html, body {
 	font-family: Hero, Sans, Times;
-	background-color:#fff;
+	background-color:#F4F4F4;
 }
 * {
 	margin:0;
@@ -22,25 +44,195 @@ html {
 
 // Content
 #content { 
-	width:100%; 
+	width:100%;
+	.cf;
+	height:75vh;
+	position: relative;
+}
+
+//INDEX PAGE
+#choose_banner{
+	opacity: 1;
+	position: absolute;
+	font-family:Hero_Light;
+	.orange_overlay_with_opacity(0.7);			
+	color: #fff;
+	font-size:25px;
+	width:100%;
+	top: 30%;
+	height: 60px;
+	line-height: 60px;
+	vertical-align: middle;
+	text-align: center;
+	.spaced {
+		padding-right:50px;
+	}
 }
 
 #apartment_types {
-	.apartment_type{
+	.apartment_type {
+		position: relative;
+		overflow: hidden;
 		width:24.8%;
 		margin-right: 0.20%;
-		background-color: @myspace_orange;
-		height:400px;
 		float: left;
+		height:75vh;
+		background-repeat: no-repeat;
+		background-size:  auto 100%;
+		background-color:#000;
+		-webkit-animation: .2s;
+		animation:	.2s;
+		&:hover{
+			width:51%;
+			.type_flag{
+				bottom:35%;
+			}
+			img {
+				width:100%;
+			}
+		}
 		&:last-of-type {
 			margin-right: 0;
 			padding-right:0.2%;
 		}
+		.type_flag{
+			z-index: 100;
+			position: absolute;
+			bottom:20%;
+			width: 60%;
+			font-family: Hero_Light;
+			.orange_overlay_with_opacity(0.7);			
+			color: #fff;
+			height:	60px;
+			line-height: 60px;
+			font-size: 24px;
+			vertical-align: middle;
+			padding-left: 30px;
+			padding-right:21px;
+			.fa-chevron-right {
+				margin-left:10px;
+				top: 2px;
+				position: relative;
+				visibility: hidden;
+			}
+		}
+		span {
+			display:block;
+		}
+		//FIXME try and set the backgrounds to the right photo
+		//Set the background img for each type
+		&.studio {
+			background-image: url("/img/studio.jpg");
+		}
+		&.one_bd {
+			background-image: url("/img/one_bedroom.jpg");
+		}
+		&.two_bd {
+			background-image: url("/img/two_bedroom.jpg");
+		}
+		&.three_bd {
+			background-image: url("/img/three_bedroom.jpg");
+		}
+	} // end .apartment_type
+
+	// This allows for the sizings to change on hover
+	&:hover > .apartment_type {
+		.type_ease;
+		width:17.01%;
+		.type_flag {
+			width:100%;
+		}
+
+		&:hover{
+			.type_ease;
+			width:48%;
+			background-size:  100% 100%;
+
+			.type_flag {
+				width: auto;
+				bottom:50%;
+				.type_ease;
+				.fa-chevron-right {
+					visibility: visible;
+				}
+			}
+		}
+		&:last-of-type{
+			padding-right:0.1%;
+		}
+	}// end &:hover > .apartment_type
+
+	&:hover ~ #choose_banner {
+		opacity: 0;
+		.set_ease(opacity, @type_transition_length);
 	}
+}
+
+// Apartment_details page
+#sidebar, #apartment_details, #apartment_photos {
+	float:left;
+}
+#sidebar {
+	background-color: @myspace_orange ;
+	height:75vh;
+	width:6%;
+	border-bottom:1px solid @border-color;
+	border-right:1px solid @border-color; 
+}
+
+#apartment_details {
+	height:75vh;
+	width:45.189761694%;
+	background-color: #fff;
 	
+	ul {
+		list-style: none;
+		li {
+			height:70px;
+			line-height: 70px;
+			text-align: center;
+			float:left;
+			width:33.23%;
+			border-right: #fff 1px solid;
+			&:last-of-type{
+				border-right:0px;
+			}
+			background-color: @myspace_yellow;
+			&.active {
+				background-color: #fff;
+			}
+			a {
+				color:#000;
+			}
+		}
+	}
+
+	.details {
+		display:none;
+		&.active { display:block; }
+	}
+}
+
+#apartment_photos {
+	width:48%;
+	height:75vh;
+	overflow-y: scroll;
+	margin: 6px;
+	margin-bottom: 0;
+	img {
+		margin-bottom: 6px;
+		width:100%;
+	}
 }
 
 
+
+
+
+//FOOTER
+#footer{
+	height:25vh;
+}
 
 
 

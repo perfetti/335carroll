@@ -9,6 +9,8 @@
 	  <meta name="author" content="My Space NYC">
 
 	  <link rel="stylesheet" href="styles/main.css?v=1.0">
+	  <!-- FONT AWESOME -->
+	  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	  <script src="/js/main.js" > </script>
 
@@ -18,4 +20,4 @@
 	</head>
 
 	<body>
-		<section id="content">
+		<section id="content" class='cf'>
