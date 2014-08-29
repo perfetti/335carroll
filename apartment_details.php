@@ -38,7 +38,7 @@
 
 	</article>
 	<a href="http://myspacenyc.com/agents"><img src="contact-agent-button.png"></a>
-<a href="http://myspacenyc.com/open-houses"><img src="open-houses-button.png"></a>
+<a href="#"><img src="open-houses-button.png"></a>
 <small>* images may not represent actual unit.</small>
 
 <small>* images may not represent actual unit.</small>
