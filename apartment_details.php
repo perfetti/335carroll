@@ -38,7 +38,7 @@
 
 	</article>
 
-
+<small>* images may not represent actual unit.</small>
 </section>
 <script>
  	window.myspace.enableDetailsSwapEffect();
