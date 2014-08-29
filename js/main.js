@@ -11,8 +11,8 @@ window.myspace.enableDetailsSwapEffect = function() {
         self.addClass('active');
 
         //Activate details
-        details_selector = self.data('detail-select');
-
+        details_selector = '#' + self.data('detail-select');
+        $(details_selector).addClass('active');
     });
 }
 
