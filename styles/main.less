@@ -1,0 +1,64 @@
+@font-face {
+	font-family: Hero;
+	src: url("/styles/fonts/Hero.otf") format("opentype");
+}
+@font-face {
+	font-family: Hero_Light;
+	src: url("/styles/fonts/Hero_Light.otf") format("opentype");
+}
+
+@myspace_orange: #9f2c00;
+@myspace_yellow: #eaa513;
+
+
+html {
+	font-family: Hero, Sans, Times;
+	background-color:#fff;
+}
+* {
+	margin:0;
+	padding:0;
+}
+
+// Content
+#content { 
+	width:100%; 
+}
+
+#apartment_types {
+	.apartment_type{
+		width:24.8%;
+		margin-right: 0.20%;
+		background-color: @myspace_orange;
+		height:400px;
+		float: left;
+		&:last-of-type {
+			margin-right: 0;
+			padding-right:0.2%;
+		}
+	}
+	
+}
+
+
+
+
+
+//CLEARFIX
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}

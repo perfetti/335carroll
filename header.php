@@ -5,8 +5,8 @@
 	  <meta charset="utf-8">
 
 	  <title>Myspace NYC</title>
-	  <meta name="description" content="The HTML5 Herald">
-	  <meta name="author" content="SitePoint">
+	  <meta name="description" content="Getting the best no-fee apartments in Brooklyn">
+	  <meta name="author" content="My Space NYC">
 
 	  <link rel="stylesheet" href="styles/main.css?v=1.0">
 	  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -18,4 +18,4 @@
 	</head>
 
 	<body>
-
+		<section id="content">
