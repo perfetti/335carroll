@@ -221,10 +221,11 @@ html, body {
 	}
 
 	.details {
+		line-height: 18px;
 		h4 {
 			width:100%;
 			text-align: center;
-			margin-bottom: 4%;
+			margin-bottom: 0.5%;
 			font-size: 21px;
 		}
 		display:none;
@@ -234,17 +235,34 @@ html, body {
 			background-color:@myspace_orange;
 			border-radius: 0;
 		}
+		li {
+			margin-top:2px;
+			list-style: disc;
+			background-color: #fff;
+			height:auto;
+			margin-left: 3%;
+			line-height: 16px;
+			font-size: 14px;
+			float:none;
+			width:100%;
+		}
+		#location_map {
+			margin-top:5px;
+			display: inline-block;
+			width:100%;
+		}
 	}
 
 	small.warning {
 		position: absolute;
 		bottom: 2px;
 		left: 3%;
+		width:100%;
 	}
 
 	.button.orange {
-		height:60px;
-		line-height: 60px;
+		height:45px;
+		line-height: 45px;
 		vertical-align: middle;
 		color:#FFF;
 		background-color: @myspace_orange;
@@ -253,7 +271,7 @@ html, body {
 		display: inline-block;
 		text-align: center;
 		font-size: 24px;
-		margin-top:2%;
+		margin-top:1%;
 		& + .button.orange {
 			margin-left: 1%;
 		}

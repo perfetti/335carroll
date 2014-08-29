@@ -21,3 +21,6 @@
 
 	<body>
 		<section id="content" class='cf'>
+			<?php if (isset($include_sidebar) && $include_sidebar) {
+				include 'sidebar.php';
+			}?>
