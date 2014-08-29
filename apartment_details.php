@@ -29,7 +29,7 @@
 <li>1.5 blocks from F and G lines on Carroll Street, the only station with a built-in branch outlet of the famed Momofuku Milk Bar </li>
 <li>2 blocks from the Union Street R Train stop </li>
 <li>5-10 minutes from the new Whole Foods on 3rd St and 3rd Av in Gowanus</li>
-<li>2 blocks from the5,000- square foot Royal Palms shuffleboard Club, an entertainment and dining, Lavender Lake and Dinosaur BBQ.</li>
+<li>2 blocks from the 5,000- square foot Royal Palms shuffleboard Club, an entertainment and dining, Lavender Lake and Dinosaur BBQ.</li>
 <li>Walk up and down Smith and Court and find everything you need from laundry and dry cleaners</li>	
 <li>Two movies theaters  </li>
 <li>1.5 blocks from Carrol Gardens public park</li>
