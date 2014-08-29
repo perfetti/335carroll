@@ -31,7 +31,7 @@
 <li>5-10 minutes from the new Whole Foods on 3rd St and 3rd Av in Gowanus</li>
 <li>2 blocks from the 5,000- square foot Royal Palms shuffleboard Club, an entertainment and dining, Lavender Lake and Dinosaur BBQ.</li>
 <li>Walk up and down Smith and Court and find everything you need from laundry and dry cleaners</li>	
-<li>Two movies theaters  </li>
+<li>Two movies theaters</li>
 <li>1.5 blocks from Carrol Gardens public park</li>
 </ul>	
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3025.756402321206!2d-73.991505!3d40.679336000000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a5653efd80b%3A0x37d46487b1f4df28!2s335+Carroll+St%2C+Brooklyn%2C+NY+11231!5e0!3m2!1sen!2sus!4v1409328578031" width="600" height="450" frameborder="0" style="border:0"></iframe>
