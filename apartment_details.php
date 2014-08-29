@@ -58,7 +58,6 @@
 </section>
 <script>
  	window.myspace.enableDetailsSwapEffect();
- 	window.myspace.enableSidebarEffect();
 </script>
 
 <section id="apartment_photos">

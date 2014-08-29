@@ -18,5 +18,8 @@ window.myspace.enableDetailsSwapEffect = function() {
 
 //
 window.myspace.enableSidebarEffect = function() {
-
+	$(document).on('click', '#sidebar .fa-bars', function() {
+		console.log('keith');
+		$('#sidebar').toggleClass('active');
+	});
 }
