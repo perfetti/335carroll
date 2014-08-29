@@ -89,6 +89,13 @@
 <section id="apartment_photos">
 	<!-- FIXME 
 		PUT A BUNCH OF PICTURES IN HERE it'll scroll -->
+		
+		 <img src="http://335carroll.com/images/335-Carroll_Alt-Layouts_18.jpg" alt="some_text">
+		  <img src="http://335carroll.com/images/335-Carroll_Alt-Layouts_11.jpg" alt="some_text">
+		   <img src="http://335carroll.com/images/3335-Carroll_Model_15.jpg" alt="some_text">
+		    <img src="http://335carroll.com/images/335-Carroll_Model_06.jpg" alt="some_text">
+		     <img src="http://335carroll.com/images/335-Carroll_Model_05.jpg" alt="some_text">
+		        <img src="http://335carroll.com/images/335-Carroll_Model_22.jpg" alt="some_text">
 </section>
 
 <?php include 'footer.php' ?>
