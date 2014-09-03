@@ -8,6 +8,7 @@
 		<li data-detail-select="overview" class="active">Overview</li>
 		<li data-detail-select="amenities" >Amenities</li>
 		<li data-detail-select="neighborhood" >Neighborhood</li>
+		<li data-detail-select="floorPlans" >Floor Plans</li>
 	</ul>
 	
 	<!-- related details -->
@@ -45,7 +46,26 @@
 
 		Prized for its quick commute to downtown Manhattan and Park Slope, Carroll Gardens is a destination neighborhood boasting of every essential services, Smith Street's restaurant row and Court Street's myriad boutiques as well as Brooklyn’s first Whole Foods located minutes away in Gowanus and Trader Joe's at Court St and Atlantic Av. 
 
-		<img src="/img/location_map.png" id="location_map"/>
+		<img src="img/location_map.png" id="location_map"/>
+		<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3025.756402321206!2d-73.991505!3d40.679336000000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a5653efd80b%3A0x37d46487b1f4df28!2s335+Carroll+St%2C+Brooklyn%2C+NY+11231!5e0!3m2!1sen!2sus!4v1409328578031" width="600" height="450" frameborder="0" style="border:0"></iframe> -->
+
+	</article>
+
+	<article id="floorPlans" class="details">
+		<h4>Studio</h4>
+		<img src="img/floor_plans/1A.png">
+		<br>
+		<h4>1 Bedroom + Den</h4>
+		<img src="img/floor_plans/2B.png">
+		<br>
+		<h4>1 Bedroom</h4>
+		<img src="img/floor_plans/2C.png">
+		<br>
+		<h4>2 Bedroom + 2 Bathroom</h4>
+		<img src="img/floor_plans/2D.png">
+		<br>
+		<h4>3 Bedroom</h4>
+		<img src="img/floor_plans/3D.png">
 		<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3025.756402321206!2d-73.991505!3d40.679336000000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a5653efd80b%3A0x37d46487b1f4df28!2s335+Carroll+St%2C+Brooklyn%2C+NY+11231!5e0!3m2!1sen!2sus!4v1409328578031" width="600" height="450" frameborder="0" style="border:0"></iframe> -->
 
 	</article>
@@ -63,11 +83,11 @@
 <section id="apartment_photos">
 <!-- FIXME 
 		PUT A BUNCH OF PICTURES IN HERE it'll scroll -->
-		  <img src="/img/apartment_photos/335-Carroll_Alt_Layouts_03.jpg" alt="some_text">
-		  <img src="/img/apartment_photos/335-Carroll_Alt_Layouts_15.jpg" alt="some_text">
-		   <img src="/img/apartment_photos/335-Carroll_Alt_Layouts_20.jpg" alt="some_text">
-		    <img src="/img/apartment_photos/335-Carroll_Model_08.jpg" alt="some_text">
-		     <img src="/img/apartment_photos/335-Carroll_Model_17.jpg" alt="some_text">
-		        <img src="/img/apartment_photos/335-Carroll_Alt_Layouts_19.jpg" alt="some_text">
+		  <img src="img/apartment_photos/335-Carroll_Alt_Layouts_03.jpg" alt="some_text">
+		  <img src="img/apartment_photos/335-Carroll_Alt_Layouts_15.jpg" alt="some_text">
+		   <img src="img/apartment_photos/335-Carroll_Alt_Layouts_20.jpg" alt="some_text">
+		    <img src="img/apartment_photos/335-Carroll_Model_08.jpg" alt="some_text">
+		     <img src="img/apartment_photos/335-Carroll_Model_17.jpg" alt="some_text">
+		        <img src="img/apartment_photos/335-Carroll_Alt_Layouts_19.jpg" alt="some_text">
 </section>
 <?php include 'footer.php' ?>

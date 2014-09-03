@@ -12,7 +12,7 @@
 	  <!-- FONT AWESOME -->
 	  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 	  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	  <script src="/js/main.js" > </script>
+	  <script src="js/main.js" > </script>
 
 	  <!--[if lt IE 9]>
 	  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
