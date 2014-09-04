@@ -4,10 +4,10 @@
 	
 	<ul class="apartments" >
 		<li><a href="index.php">Home</a></li>
-		<li><a href="apartment_details.php">Studio</a></li>
-		<li><a href="apartment_details.php">1 Bedroom</a></li>
-		<li><a href="apartment_details.php">2 Bedroom</a></li>
-		<li><a href="apartment_details.php">3 Bedroom</a></li>
+		<li><a href="apartment_details.php?bd=0">Studio</a></li>
+		<li><a href="apartment_details.php?bd=1">1 Bedroom</a></li>
+		<li><a href="apartment_details.php?bd=2">2 Bedroom</a></li>
+		<li><a href="apartment_details.php?bd=3">3 Bedroom</a></li>
 	</ul>
 
 	<div class="contact">

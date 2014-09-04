@@ -2,7 +2,7 @@
 	
 	<section id="apartment_types">
 		<article class="apartment_type studio">
-			<a href="apartment_details.php">
+			<a href="apartment_details.php?bd=0">
 
 				<span class="type_flag">
 					Studio <i class="fa fa-chevron-right"></i>
@@ -10,7 +10,7 @@
 			</a>
 		</article>
 		<article class="apartment_type one_bd">
-			<a href="apartment_details.php">
+			<a href="apartment_details.php?bd=1">
 
 				<span class="type_flag">
 					1 Bedroom <i class="fa fa-chevron-right"></i>
@@ -18,7 +18,7 @@
 			</a>
 		</article>
 		<article class="apartment_type two_bd">
-			<a href="apartment_details.php">
+			<a href="apartment_details.php?bd=2">
 
 				<span class="type_flag">
 					2 Bedroom <i class="fa fa-chevron-right"></i>
@@ -26,7 +26,7 @@
 			</a>
 		</article>
 		<article class="apartment_type three_bd">
-			<a href="apartment_details.php">
+			<a href="apartment_details.php?bd=3">
 
 				<span class="type_flag">
 					3 Bedroom <i class="fa fa-chevron-right"></i>
