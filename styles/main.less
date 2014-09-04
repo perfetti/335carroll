@@ -18,12 +18,20 @@
 	transition: @attr @time ease-in-out;
 }
 
+.set_linear(@attr, @time) {
+	-webkit-transition: @attr @time linear !important;
+	-moz-transition: @attr @time linear !important;
+	-o-transition: @attr @time linear !important;
+	transition: @attr @time linear !important;
+}
+
 
 // FIXME!
 // THIS IS HAVING ISSUES WITH WEIRD JUMPINESS
 // or you end up with a weird white bit
 // Try and fix transition
-@type_transition_length: .2s;
+@type_transition_length: .6s;
+@flag_transition_length: .6s;
 .type_ease{ 
 	.set_ease(width, @type_transition_length);
 }
@@ -52,6 +60,7 @@ html, body {
 //INDEX PAGE
 #choose_banner	{
 	.type_ease;
+	.set_ease(opacity, @type_transition_length);
 	opacity: 1;
 	position: absolute;
 	font-family:Hero_Light;
@@ -84,7 +93,7 @@ html, body {
 		background-color:#000;
 		-webkit-animation: .2s;
 		animation:	.2s;
-		&:hover{
+		&.active{
 			width:51%;
 			.type_flag{
 				bottom:35%;
@@ -111,6 +120,8 @@ html, body {
 			vertical-align: middle;
 			padding-left: 30px;
 			padding-right:21px;
+			.set_linear(width, @flag_transition_length);
+			.set_linear(bottom, @flag_transition_length);
 			.fa-chevron-right {
 				margin-left:10px;
 				top: 2px;
@@ -138,19 +149,20 @@ html, body {
 	} // end .apartment_type
 
 	// This allows for the sizings to change on hover
-	&:hover > .apartment_type {
+	&.active > .apartment_type {
 		.type_ease;
 		width:17.01%;
 		.type_flag {
 			width:100%;
 		}
 
-		&:hover{
+		&.active{
 			.type_ease;
 			width:48%;
 			background-size: auto 115%;
 
 			.type_flag {
+				.set_linear(bottom, @flag_transition_length);
 				width: auto;
 				bottom:50%;
 				.type_ease;
@@ -164,9 +176,8 @@ html, body {
 		}
 	}// end &:hover > .apartment_type
 
-	&:hover ~ #choose_banner {
+	&.active ~ #choose_banner {
 		opacity: 0;
-		display:none;
 		.set_ease(opacity, @type_transition_length);
 	}
 }
@@ -298,6 +309,7 @@ html, body {
 			font-size: 14px;
 			float:none;
 			width:95%;
+			text-align: left;
 		}
 		#location_map {
 			margin-top:5px;

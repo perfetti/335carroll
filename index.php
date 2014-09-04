@@ -43,6 +43,8 @@
 		<span class="spaced"></span>
 		<span> Choose your apartment </span>
 	</section>
-
+<script type="text/javascript">
+	myspace.enableFrontTileEffect();
+</script>
 
 <?php include 'footer.php' ?>

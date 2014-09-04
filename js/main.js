@@ -23,3 +23,18 @@ window.myspace.enableSidebarEffect = function() {
 		$('#sidebar').toggleClass('active');
 	});
 }
+
+window.myspace.enableFrontTileEffect = function() {
+	$(document).on('click', '.apartment_type', function() {
+        self = $(this);
+        
+        $('.apartment_type').removeClass('active');
+
+        self.addClass('active');
+        $('#apartment_types').addClass('active');
+    });
+    $(document).on('click', '#footer', function() {
+        $('.apartment_type, #apartment_types').removeClass('active');
+    });
+
+}
